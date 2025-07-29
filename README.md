@@ -27,17 +27,16 @@ Assuming you have installed VS Code and Docker installed you can click [here](ht
 The Dev Containers extension adds to the existing list of VS Code commands. The `command palete can be accessed by`: pressing `F1` (or `Ctrl+Shift+P` / `Cmd+Shift+P` on Mac) or by `typing > in the search bar` followed by "Dev Containers" to see all available commands.
 
 - Clone the repository
+- Open the repository in VS Code
+- Use the command palette to "Reopen in Container".
+
 ```bash
 git clone https://github.com/Chuxel/systemd-devcontainer.git
-```
-- Open the repository in VS Code
-```bash
 cd systemd-devcontainer
 code .
 ```
-- Use the command palette to "Reopen in Container".
 
-You can verify that systemd is running as PID 1 inside the container by using
+Confirm systemd is running as PID 1 by running the following `inside the container`
 
 ```bash
 ps -p 1 -o comm=

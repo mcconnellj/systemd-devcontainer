@@ -40,3 +40,15 @@ To verify that systemd is running as PID 1 inside the container, run:
 
 ```bash
 ps -p 1 -o comm=
+```
+
+## License
+
+The MIT License lets you use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the project — for personal or commercial use. Just keep the original license text included. No warranties are provided.
+
+## Credits
+
+Created by @mafintosh.
+
+His work on this repo is simple and effective, as if crafted by a true wizard. Please ⭐ star the repo to show your support.  
+— README author @mcconnellj

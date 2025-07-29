@@ -25,19 +25,20 @@ Assuming you have VS Code and Docker installed you can click [here](https://vsco
 
 ## Usage
 
-1. Clone the repository
-2. Open the repository in VS Code
-3. Use the command palette `F1` to "Reopen in Container"
-
 ```bash
+# Clone the repository
 git clone https://github.com/Chuxel/systemd-devcontainer.git
-cd systemd-devcontainer
-code .
+
+# Open the folder in VS Code
+code systemd-devcontainer
+
+# Press F1 and "Reopen In Container"
 ```
 
-Run this inside the container to confirm systemd is running as PID 1
+Run inside the container!
 
 ```bash
+# Confirm systemd is PID 1
 ps -p 1 -o comm=
 ```
 

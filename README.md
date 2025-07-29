@@ -1,4 +1,4 @@
-# Ubuntu Devcontainer With Systemd
+# A Simple Systemd Devcontainer
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat) 
 ![GitHub Stars](https://img.shields.io/github/stars/chuxel/systemd-devcontainer?style=flat) 

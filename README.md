@@ -51,4 +51,4 @@ Created by [@Chuxel](https://github.com/Chuxel).
 
 His work on this repo is simple and effective, as if crafted by a true wizard! 
 
-Please ⭐ star the repo to show your support. — README author [@mcconnellj](https://github.com/mcconnellj)
+Please ⭐ star the repo to show your support. — README contributor [@mcconnellj](https://github.com/mcconnellj)

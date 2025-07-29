@@ -49,4 +49,6 @@ The MIT License lets you use, copy, modify, merge, publish, distribute, sublicen
 
 Created by [@Chuxel](https://github.com/Chuxel).
 
-His work on this repo is simple and effective. As if crafted by a true wizard! Please ⭐ star the repo to show your support. — README author [@mcconnellj](https://github.com/mcconnellj)
+His work on this repo is simple and effective, as if crafted by a true wizard! 
+
+Please ⭐ star the repo to show your support. — README author [@mcconnellj](https://github.com/mcconnellj)

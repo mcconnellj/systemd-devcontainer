@@ -13,9 +13,9 @@ Assuming you have installed VS Code and Docker installed you can click [here](ht
 
 ## Manual Installation
 
-1. Install [VS Code](https://code.visualstudio.com/)
-2. Use VS Code to install the [Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
-3. Install and configure [Docker](https://www.docker.com/get-started) for your operating system:
+- Install the code editor application [VS Code](https://code.visualstudio.com/)
+- Use the VS Code extensions tab to install the [Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+- Install and configure [Docker](https://www.docker.com/get-started) for your operating system:
     - Windows & macOS: Install [Docker Desktop for Mac/Windows](https://www.docker.com/products/docker-desktop).
     - Linux: Install [Docker CE/EE for Linux](https://docs.docker.com/install/#supported-platforms) use `sudo usermod -aG docker $USER` to authorize your user before logging out and back in.
 

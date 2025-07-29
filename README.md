@@ -9,25 +9,18 @@ Devcontainers provide preconfigured development environments so you can start co
 
 ## Quickstart
 
-If you already have VS Code and Docker installed, you can click the badge above or [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java) to get started.  
-It will install the Dev Containers extension if necessary, clone the repo into a container [volume](https://code.visualstudio.com/remote/advancedcontainers/improve-performance#_use-clone-repository-in-container-volume), and start up the dev container.
+Assuming you have installed VS Code and Docker installed you can click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java) to:
+- Install the Dev Containers extension if necessary
+- Clone the repo into a container [volume](https://code.visualstudio.com/remote/advancedcontainers/improve-performance#_use-clone-repository-in-container-volume)
+- Start the dev container
 
 ## Installation
 
-1. Install [VS Code](https://code.visualstudio.com/) or [VS Code Insiders](https://code.visualstudio.com/insiders/) and this extension.
-
-2. Install and configure [Docker](https://www.docker.com/get-started) for your operating system, using one of the paths below or an [alternative Docker option](https://code.visualstudio.com/remote/advancedcontainers/docker-options), like Docker on a remote host or Docker compliant CLI.
-
-   **Windows / macOS:**
-
-   1. Install [Docker Desktop for Mac/Windows](https://www.docker.com/products/docker-desktop).
-   2. If not using WSL2 on Windows, right-click on the Docker task bar item, select **Settings / Preferences** and update **Resources > File Sharing** with any locations your source code is kept. See [tips and tricks](https://aka.ms/vscode-remote/containers/troubleshooting) for troubleshooting.
-   3. To enable the [Windows WSL2 back-end](https://aka.ms/vscode-remote/containers/docker-wsl2): Right-click on the Docker taskbar item and select **Settings**. Check **Use the WSL2 based engine** and verify your distribution is enabled under **Resources > WSL Integration**.
-
-   **Linux:**
-
-   1. Follow the [official install instructions for Docker CE/EE](https://docs.docker.com/install/#supported-platforms). If you use Docker Compose, follow the [Docker Compose install directions](https://docs.docker.com/compose/install/).
-   2. Add your user to the `docker` group by using a terminal to run: `sudo usermod -aG docker $USER` Sign out and back in again so this setting takes effect.
+1. Install [VS Code](https://code.visualstudio.com/)
+2. Use VS Code to install the [Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+3. Install and configure [Docker](https://www.docker.com/get-started) for your operating system:
+- Install [Docker Desktop for Mac/Windows](https://www.docker.com/products/docker-desktop).
+- Install [Docker CE/EE for Linux](https://docs.docker.com/install/#supported-platforms) use `sudo usermod -aG docker $USER` to authorize your user before logging out and back in.
 
 ## Usage
 

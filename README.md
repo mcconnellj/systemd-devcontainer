@@ -10,10 +10,10 @@ Devcontainers provide preconfigured development environments so you can start co
 
 ## Quickstart
 
-Assuming you have installed VS Code and Docker installed you can click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Chuxel/systemd-devcontainer) to automaticaly: 
+Assuming you have VS Code and Docker installed you can click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Chuxel/systemd-devcontainer) to automaticaly: 
 - Install the Dev Containers extension if necessary
 - Clone this repo into a container [volume](https://code.visualstudio.com/remote/advancedcontainers/improve-performance#_use-clone-repository-in-container-volume)
-- Start the dev container.
+- Start the dev container
 
 ## Manual Installation
 
@@ -25,11 +25,9 @@ Assuming you have installed VS Code and Docker installed you can click [here](ht
 
 ## Usage
 
-The Dev Containers extension adds to the existing list of VS Code commands. The `command palete can be accessed by`: pressing `F1` (or `Ctrl+Shift+P` / `Cmd+Shift+P` on Mac) or by `typing > in the search bar` followed by "Dev Containers" to see all available commands.
-
 - Clone the repository
 - Open the repository in VS Code
-- Use the command palette to "Reopen in Container".
+- Use the command palette `F1` to "Reopen in Container"
 
 ```bash
 git clone https://github.com/Chuxel/systemd-devcontainer.git
@@ -37,7 +35,7 @@ cd systemd-devcontainer
 code .
 ```
 
-Confirm systemd is running as PID 1 by running the following `inside the container`
+Run this inside the container to confirm systemd is running as PID 1
 
 ```bash
 ps -p 1 -o comm=
@@ -51,5 +49,4 @@ The MIT License lets you use, copy, modify, merge, publish, distribute, sublicen
 
 Created by [@Chuxel](https://github.com/Chuxel).
 
-His work on this repo is simple and effective. As if crafted by a true wizard! Please ⭐ star the repo to show your support.  
-— README author [@mcconnellj](https://github.com/mcconnellj)
+His work on this repo is simple and effective. As if crafted by a true wizard! Please ⭐ star the repo to show your support. — README author [@mcconnellj](https://github.com/mcconnellj)

@@ -1,15 +1,14 @@
 # A Simple Systemd Devcontainer
 
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&style=flat)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Chuxel/systemd-devcontainer)
-![GitHub Stars](https://img.shields.io/github/stars/chuxel/systemd-devcontainer?style=flat)
-
-
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat) 
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white) 
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
+![GitHub Stars](https://img.shields.io/github/stars/chuxel/systemd-devcontainer?style=flat)
 
 Devcontainers provide preconfigured development environments so you can start coding right away without extra setup. This repository is an example of a lightweight devcontainer setup that boots with systemd as PID 1 — ideal for running or testing services that require a real init system.
 
 ## Quickstart
+
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&style=flat)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Chuxel/systemd-devcontainer)
 
 Assuming you have VS Code and Docker installed you can click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Chuxel/systemd-devcontainer) to automaticaly: 
 - Install the Dev Containers extension if necessary

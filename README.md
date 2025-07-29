@@ -35,7 +35,7 @@ code systemd-devcontainer
 # Press F1 and "Reopen In Container"
 ```
 
-Run inside the container to confirm systemd is PID 1
+Run the following inside the container to confirm systemd is PID 1
 
 ```bash
 ps -p 1 -o comm=

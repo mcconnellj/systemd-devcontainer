@@ -8,9 +8,7 @@ Devcontainers provide preconfigured development environments so you can start co
 
 ## Quickstart
 
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&style=flat)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Chuxel/systemd-devcontainer)
-
-Assuming you have VS Code and Docker installed you can click [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Chuxel/systemd-devcontainer) to automaticaly: 
+Assuming you have VS Code and Docker installed you can click [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&style=flat)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Chuxel/systemd-devcontainer) to automaticaly: 
 - Install the Dev Containers extension if necessary
 - Clone this repo into a container [volume](https://code.visualstudio.com/remote/advancedcontainers/improve-performance#_use-clone-repository-in-container-volume)
 - Start the dev container

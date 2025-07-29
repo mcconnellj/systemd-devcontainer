@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
 ![Dev Container](https://img.shields.io/badge/Dev--Container-✔️-blue)  
-![GitHub Stars](https://img.shields.io/github/stars/yourusername/systemd-devcontainer?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/Chuxel/systemd-devcontainer?style=social)
 
 Devcontainers provide preconfigured development environments so you can start coding right away without extra setup. This repository is an example of a lightweight devcontainer setup that boots with systemd as PID 1 — ideal for running or testing services that require a real init system.
 
@@ -40,7 +40,7 @@ The MIT License lets you use, copy, modify, merge, publish, distribute, sublicen
 
 ## Credits
 
-Created by @mafintosh.
+Created by @chuxel.
 
 His work on this repo is simple and effective, as if crafted by a true wizard. Please ⭐ star the repo to show your support.  
 — README author @mcconnellj

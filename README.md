@@ -35,9 +35,9 @@ git clone https://github.com/Chuxel/systemd-devcontainer.git
 cd systemd-devcontainer
 code .
 ```
-- Using the command palette "Reopen in Container".
+- Use the command palette to "Reopen in Container".
 
-- Verify that systemd is running as PID 1 inside the container
+You can verify that systemd is running as PID 1 inside the container by using
 
 ```bash
 ps -p 1 -o comm=

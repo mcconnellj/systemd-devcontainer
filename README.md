@@ -24,7 +24,7 @@ Assuming you have installed VS Code and Docker installed you can click [here](ht
 
 ## Usage
 
-The Dev Containers extension adds to the existing list of VS Code commands. The command palete can be accessed by pressing F1 (or Ctrl+Shift+P / Cmd+Shift+P on Mac) or by typing `>` in the search bar followed by "Dev Containers" to see all available commands.
+The Dev Containers extension adds to the existing list of VS Code commands. The `command palete can be accessed by`: pressing `F1` (or `Ctrl+Shift+P` / `Cmd+Shift+P` on Mac) or by `typing > in the search bar` followed by "Dev Containers" to see all available commands.
 
 - Clone the repository
 ```bash

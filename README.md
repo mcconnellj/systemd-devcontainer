@@ -24,22 +24,22 @@ Assuming you have installed VS Code and Docker installed you can click [here](ht
 
 ## Usage
 
-VS Code commands manage your editor. The Dev Containers extension adds to the existing list of commands, allowing for the creation and management of your development containers.
-
-You can access commands two ways:
-
+The Dev Containers extension adds to the existing list of VS Code commands. Accessible in the command palete:
 - Press F1 (or Ctrl+Shift+P / Cmd+Shift+P on Mac) to open the Command Palette  
-- Or type `>` in the command bar, then type Dev Containers to see available commands in the search bar
+- Or type `>` in the search bar, then type Dev Containers to see available commands
 
-Common commands include:
+- Clone the repository
+```bash
+git clone https://github.com/Chuxel/systemd-devcontainer.git
+```
+- Open the repository in VS Code
+```bash
+cd systemd-devcontainer
+code .
+```
+- Using the command palette "Reopen in Container".
 
-- Dev Containers: Open Folder in Container  
-- Dev Containers: Rebuild Container  
-- Dev Containers: Open Container Configuration File  
-- Dev Containers: Clone Repository in Container Volume  
-- Dev Containers: Open in Container from URL
-
-To verify that systemd is running as PID 1 inside the container, run:
+- Verify that systemd is running as PID 1 inside the container
 
 ```bash
 ps -p 1 -o comm=
